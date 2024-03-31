@@ -62,7 +62,7 @@ const songsList = [
     }
 ]
 
-//sariki atama
+//sarki atama
 const setSong = (arrayIndex) =>{
 
     let {name, link, artist, image} = songsList[arrayIndex]
