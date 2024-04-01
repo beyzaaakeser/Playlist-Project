@@ -30,36 +30,6 @@ let loop = true;
 //sarki listesi
 const songsList = [
   {
-    name: "Gelo Ew Ki Bu",
-    link: "assets/gelo-ew-ki-bu.mp3",
-    artist: "Aram Tigran",
-    image: "assets/aram-tigran.jpeg",
-  },
-  {
-    name: "Gitme Kal",
-    link: "assets/yara-bere-icindeyim.mp3",
-    artist: "Hira-i Zerdust",
-    image: "assets/hirai.jpeg",
-  },
-  {
-    name: "Aramam",
-    link: "assets/aramam.mp3",
-    artist: "Ibrahim Tatlises",
-    image: "assets/ibrahim-tatlises.jpeg",
-  },
-  {
-    name: "Ax Eman",
-    link: "assets/ax-eman.mp3",
-    artist: "Rewsan Celiker",
-    image: "assets/rewsan-celiker.jpeg",
-  },
-  {
-    name: "Dinle",
-    link: "assets/dinle.mp3",
-    artist: "Mahsun Kirmizigul",
-    image: "assets/mahsun.jpeg",
-  },
-  {
     name: "Bu Son Olsun",
     link: "assets/CEM KARACA - BU SON OLSUN.mp3",
     artist: "Cem Karaca",
@@ -118,6 +88,36 @@ const songsList = [
     link: "assets/Yaşar - Sevda Sinemalarda.mp3",
     artist: "Yaşar",
     image: "assets/yasar-sevda.jpg",
+  },
+  {
+    name: "Gelo Ew Ki Bu",
+    link: "assets/gelo-ew-ki-bu.mp3",
+    artist: "Aram Tigran",
+    image: "assets/aram-tigran.jpeg",
+  },
+  {
+    name: "Gitme Kal",
+    link: "assets/yara-bere-icindeyim.mp3",
+    artist: "Hira-i Zerdust",
+    image: "assets/hirai.jpeg",
+  },
+  {
+    name: "Aramam",
+    link: "assets/aramam.mp3",
+    artist: "Ibrahim Tatlises",
+    image: "assets/ibrahim-tatlises.jpeg",
+  },
+  {
+    name: "Ax Eman",
+    link: "assets/ax-eman.mp3",
+    artist: "Rewsan Celiker",
+    image: "assets/rewsan-celiker.jpeg",
+  },
+  {
+    name: "Dinle",
+    link: "assets/dinle.mp3",
+    artist: "Mahsun Kirmizigul",
+    image: "assets/mahsun.jpeg",
   },
 ];
 
