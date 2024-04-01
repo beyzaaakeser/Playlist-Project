@@ -59,6 +59,18 @@ const songsList = [
     artist: "Mahsun Kirmizigul",
     image: "assets/mahsun.jpeg",
   },
+  {
+    name: "Bu Son Olsun",
+    link: "assets/CEM KARACA - BU SON OLSUN.mp3",
+    artist: "Cem Karaca",
+    image: "assets/cemkaraca-busonolsun.jpg",
+  },
+  {
+    name: "Tamirci Çırağı",
+    link: "assets/Cem Karaca - Tamirci Çırağı.mp3",
+    artist: "Cem Karaca",
+    image: "assets/cemkaraca.jpg",
+  },
 ];
 
 //sarki atama
