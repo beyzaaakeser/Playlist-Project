@@ -71,6 +71,48 @@ const songsList = [
     artist: "Cem Karaca",
     image: "assets/cemkaraca.jpg",
   },
+  {
+    name: "Cheri Cheri Lady",
+    link: "assets/Cheri Cheri Lady.mp3",
+    artist: "Modern Talking",
+    image: "assets/cherilady.jpg",
+  },
+  {
+    name: "Feeling Good",
+    link: "assets/Feeling Good.mp3",
+    artist: "Michael Buble",
+    image: "assets/michael-buble.jpg",
+  },
+  {
+    name: "Keyfi Yolunda Aşkı Sonunda",
+    link: "assets/Keyfi Yolunda Aşkı Sonunda.mp3",
+    artist: "Yalın",
+    image: "assets/yalin.jpg",
+  },
+  {
+    name: "Hanfendi",
+    link: "assets/Mabel Matiz - Hanfendi.mp3",
+    artist: "Mabel Matiz",
+    image: "assets/mabel.jpg",
+  },
+  {
+    name: "Öyle Kolaysa",
+    link: "assets/Mabel Matiz - Öyle Kolaysa.mp3",
+    artist: "Mabel Matiz",
+    image: "assets/mabel.jpg",
+  },
+  {
+    name: "Bedelini Ödedim",
+    link: "assets/Melike Sahin- BedeliniOdedim.mp3",
+    artist: "Melike Sahin",
+    image: "assets/melikesahin.jpg",
+  },
+  {
+    name: "Until I Found You",
+    link: "assets/Stephen Sanchez - Until I Found You (Official Video).mp3",
+    artist: "Stephen Sanchez",
+    image: "assets/stephen-sanchez.jpg",
+  },
 ];
 
 //sarki atama
