@@ -113,6 +113,12 @@ const songsList = [
     artist: "Stephen Sanchez",
     image: "assets/stephen-sanchez.jpg",
   },
+  {
+    name: "Sevda Sinemalarda",
+    link: "assets/Yaşar - Sevda Sinemalarda.mp3",
+    artist: "Yaşar",
+    image: "assets/yasar-sevda.jpg",
+  },
 ];
 
 //sarki atama
