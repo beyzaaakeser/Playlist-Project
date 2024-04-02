@@ -15,7 +15,3 @@ In my project, there is a playlist application that I developed to maximize user
 <h4>IMAGE</h4>
 
 ![](assets/my-playlist-project-photo.png)
-
-<h4>VIDEO</h4>
-
-![](assets/my-playlist-project.mp4)
