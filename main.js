@@ -145,6 +145,7 @@ playListButton.addEventListener("click", () => {
 closeListButton.addEventListener("click", () => {
     playListContainer.classList.add("hide");
   });
+  
 //tekrar tiklanildiginda
 repeatButton.addEventListener("click", () => {
   if (repeatButton.classList.contains("active")) {

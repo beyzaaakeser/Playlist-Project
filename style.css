@@ -1,26 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 /* varsayilan ozellikleri sifirla */ 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 /* arka plan tam ekran ve renk gecisi*/
 body {
   height: 100vh;
-  background: linear-gradient(
-    to left,
-    #4aae4a,
-    rgba(66, 66, 189, 0.734)
-  );
+  background: url("assets/background.png") center no-repeat;
+  background-size: cover;
 }
 
 /* music player*/
 .music-player {
   font-size: 16px;
-  width: 80vw; /* */
-  max-width: 25em;
+  width: 90vw; /* */
+  max-width: 30em;
   background-color: aliceblue;
   padding: 3em 2em;
   position: absolute; /* transfotm ... top ve left te ortalamak icin gereklidir */
@@ -46,6 +45,7 @@ img {
 .song-details {
   font-family: "Poppins", sans-serif;
   text-align: center;
+  padding-top: 10px;
 }
 
 .song-details #song-name {
@@ -69,16 +69,25 @@ img {
 .music-player button {
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 #play,
 #pause {
   background-color: rgb(7, 94, 194);
-  height: 2.5em;
-  width: 2.5em;
+  height: 2.2em;
+  width: 2.2em;
   font-size: 1.8em;
   color: white;
   border-radius: 50%;
+  position: relative;
+}
+#play i,
+#pause i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #prev,
@@ -126,7 +135,7 @@ img {
 }
 
 #playlist-container {
-  background-color: rgb(225, 225, 201);
+  background-color: rgb(203, 201, 225);
   position: absolute;
   width: 90%;
   height: 90%;
@@ -137,10 +146,11 @@ img {
   overflow: auto;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  padding: 30px;
 }
 
 #playlist-container::-webkit-scrollbar-track {
-  background: #599C73;
+  background: #B24F9B;
 }
 
 #playlist-container::-webkit-scrollbar-thumb {
